@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Hello world</title>   
+    </head>
+    <body>
+        <h1>Hello assholes</h1>
+        <h2>Hello assholes</h2>
+        <h3>Hello assholes</h3>
+        <h5>Hello assholes</h5>
+        <h6>Hello assholes</h6>
+        <h4>Hello assholes</h4>
+        <p>쭌</p>
+        <br />
+        <p>쭌</p>
+        <a href ="https://naver.com">Naver 넘어가기</a>  <!-- 줄바꿈 안댐,, a tag는-->
+        <img src = "https://www.dailysecu.com/news/photo/202104/123449_145665_1147.png"/ alt = "NETWORK ERROR">
+        <form>
+            <label> ID 입력 </label>
+            <input type = "text">
+            <br />
+            <label> PW입력</label>
+            <input type ="password">
+            <input type ="color">
+        </form>
+        <div> <!-- 하나의 박스로 영역을 구분해줌 -> div tag-->
+            <h1>pic below is 댕댕이 </h1>
+            <img src = "https://www.dailysecu.com/news/photo/202104/123449_145665_1147.png"/ alt = "NETWORK ERROR" width = 100 height = 100>
+        </div>
+        <style>
+            p{
+                color : brown;
+            }
+        
+            h1{
+                color : red;
+            }
+            #whatthefuc{
+                color : darkorange;
+            }
+            .fucking_hell{  /* 사용방법이 약간 다르네,, div class면 .별칭
+                으로 해야하고, id는 #별칭이네
+                id는 딱 한요소 class는 class 가 붙은 애들 전부에게 붙음*/
+                color : rgb(179, 37, 184);
+            }
+        </style>
+        <div id = "whatthefuc">whatthefuc이 적용됨</div>
+        <div class = "fucking_hell"> fuck you</div>
+        <div class = "fucking_hell"> fuck you</div>
+    </body>
+</html>
+
+<html>
+<head>
+    <style type = "text/css">
+    #item1{
+        width:30%;
+        height:30px; /* percent로 할 수도 있음 width:40%*/
+        background-color: aquamarine;
+    }
+    #item2{
+        width:20%;
+        height : 20px;
+        background-color: aqua;
+    }
+    .item-list{
+        font-size: 30px;
+        background-color: #ff0000;
+        width : 30%;    }
+    .whatt > #what2{
+        margin-left: 16px;
+        margin-bottom: 32px;
+        background-color: rosybrown;
+        width : 30%;
+    }
+    /* .whatt > #what3{ 
+        만약 whatt을 class로 정의해두면, class는 하위 자식을 다 
+        통일시키기때문에 쓰나마나임..
+    }  -> 아니네 잘만 되네 ㅋㅋ ㅈㅅ,, 
+    */
+    .whatt>#what3{
+        background-color: royalblue;
+        width : 30%;
+        
+    }
+    .whatt>#what4{
+        margin-left : 16px;
+        margin-bottom : 32px;
+        background-color: green;
+        width : 30%;
+        border : 5px solid blue; /*for the 경계,, 박스 아웃라인*/
+    }
+  .whatt{
+      background-color: gray;
+      width : 30%;
+  }
+    </style>
+</head>
+<body>
+    <br />
+    <div id = "item1">1번 아이템</div>
+    <div id = "item2">2번 아이템</div>
+    <div class= "item-list">
+        <div id = "item3">3번 아이템</div>
+        <div id = "item4">4번 아이템</div>
+    </div>
+    <div class = "whatt">
+        <div id = "what2"> second what</div>
+        <div id = "what3"> third what</div>
+        <div id = "what4"> fourth what</div>
+    </div>
+</body>
+
+
+</html>
