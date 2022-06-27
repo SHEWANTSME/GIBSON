@@ -1,1 +1,50 @@
-no more mutants
+let us make this file to the 감상평 of https://www.youtube.com/watch?v=hOdFmCeh_B4 this video
+
+비잔틴 오류 허용 -> could not know if this 전령 dies or gone wrong.. or kills ..(BFT)
+
+block + chain
+block : data를 저장하는 단위 ( sd카드1개, 1페이지, 용량의 단위)
+chain : block들을 엮어두는 놈
+blockchain does use hash func -> 비가역성이 심함
+x를 넣어서 y를 찾기는 굉장히 쉽지만 y에서 x를 찾는건 너무너무 어려움
+ex) 빨강과 흰색을 섞으면 주황이 되지만 주황에서 원래 어떤색이였는지 맟춰봐 하는 방법은 무궁무진함
+
+이러한 블록들을 존나게 엮으면  기하급수적으로 원래 값을 알기 어려워짐
+-> 공동 거래장부로 쓰이는 이유가 이것임
+
+'A  gave B a 1bitcoin' 이 구라일수 있음 ( if another block had hardforked)
+그래서 공동 거래장부로서 역할을 해야함 ( a가b한테 비트1만큼 줬다는 사실을 이 블록체인을 만드는 모든 사람들에게 합의를 구해야함) 
+so every block has its 합의내용ㅇ ( 이블록에선a가b한테 뭐 줬고 다음블록은 c가 a한테 뭐 줬고..)
+그렇게 되면 마지막에 남는 chain 하나가 남는데 이걸 canonical chain이라고 함
+canonical chain 의 기록으로 최종 거래내역으로 치고 이걸 바꾸는건 매우어려우니(위의 chain엮인걸보면)
+거래내역으로 쓰는게 cc
+
+합의는 어떠케 하냐->  ex 선거
+작업증명 : 니가 이번 선거에서 선거인단으로 뽑혀서 투표할수 있게된 작업(노력) 을 증명해와라
+지분증명 : 니가 이 생태계에 이만큼의 지분이 있어서 투표를 잘 할거라고 기대할 수 있게 지분이 있다는걸 증명해봐라
+--> to decide next block -> leader proof, or 투표권을 갖기위한 증명
+
+-> 인터넷에선 ㅈㄴ 힘들다 이런 증명이.. 시간조정도 어렵고, 본인인증 수단을 거치면 익명성이 없어짐
+
+블록체인에 data를 올리면 투명하지만,, 사생활 보호가 필요한 data들이 있을텐데,, 모두가 보면 조매 그렇지 않냐?? -> 이걸 cryptize 하는게 목표
+
+
+where do we use block chain? -> 경매같은거에서 100달러를 992로 변환되고
+이게 변환값만보면 내가 얼마를 썼는지 알 수 없음
+if we make this kind of chain almost unlimited -> 이마트에서 어떤 샐러드가 문제가 생겨서 문제의 원인을 알려고 하는데 샐러드에 여러 원산지의 채소들이 섞여서 원인을 알기가 굉장히 까다로움 -> 이럴때 block chain을 써서 하나하나 매 단계마다 기록하고 chain 으로 엮으면 좀 더 이럴때 알기 쉽게 대처할 수 있겠다-> 공장에서도 어디서 원자재를 가져온거를 다 기록하면 어디부분에서 한 실행이 맘에 안드니까 
+바꿔야 겠다 하면 블록체인을 붙여서 보면 되게따~ 이런 식임 -> doesnot really have similarity between cryptocurrency.
+
+블록체인을 이해한다 -> aws를 이해한다
+암호화폐를 이해한다 -> aws기반 system인 twitter의 매커니즘을 이해한다.
+
+does cyrptocurrency work as a currency? -> 암호화폐는 아직 ㅈㄴ 느림.. 해외송금같이 시간이 애초에 오래걸리는 작업에서 탈 중앙화하는 작업(+no수수료)을 실행하는게 아주 적합하지 근데 비트코인같은거로 껌 사먹는게 사실은 불가능하자나.. 그러니까 아직 발전이 필요하다..
+
+BLOCKCHAIN - triellema
+
+safety - security -> 안전,보안
+decentralization -> 탈중앙화
+scalability -> 확장성
+
+얘는 여기에 더 가깝고 얘는 저기에 더 가깝고.. 
+삼각형의 빈자리를 계속 매꾸는 형태임 지금의 블록체인은
+
